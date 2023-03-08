@@ -1,0 +1,19 @@
+{
+  "name": "back",
+  "version": "1.0.0",
+  "description": "Pruba tecnica para la empresa loggro",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SebasIBR/loggro.git"
+  },
+  "author": "SebasIBR",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SebasIBR/loggro/issues"
+  },
+  "homepage": "https://github.com/SebasIBR/loggro#readme"
+}
