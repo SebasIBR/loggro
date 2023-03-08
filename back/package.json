@@ -4,7 +4,8 @@
   "description": "Pruba tecnica para la empresa loggro",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cd src && nodemon app.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,12 @@
   "bugs": {
     "url": "https://github.com/SebasIBR/loggro/issues"
   },
-  "homepage": "https://github.com/SebasIBR/loggro#readme"
+  "homepage": "https://github.com/SebasIBR/loggro#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^2.0.21"
+  }
 }
