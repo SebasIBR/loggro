@@ -1,0 +1,17 @@
+.main{
+    display: flex;
+    background-color: beige;
+    padding: 14%;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.buttonMain{
+    background-color: brown;
+    color: aliceblue;
+    width: 40%;
+    padding: 2%;
+    border: solid 5px brown;
+    border-radius: 15%;
+
+}
