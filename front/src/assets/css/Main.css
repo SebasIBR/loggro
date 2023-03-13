@@ -11,7 +11,16 @@
     color: aliceblue;
     width: 40%;
     padding: 2%;
-    border: solid 5px brown;
-    border-radius: 15%;
-
+    border: solid 3px brown;
+    border-radius: 50px;
+    transition: 700ms;
+}
+.buttonMain:hover{
+    background-color: aliceblue;
+    color: brown;
+    transition: 700ms;
+}
+.buttonMain a{
+    color: black;
+    font-size: 20px;
 }

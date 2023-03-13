@@ -4,9 +4,13 @@ import '../assets/css/Main.css'
 function Main() {
     return (
         <main className="main">
-            <button className="buttonMain">Cargar Imagen</button>
-            <button className="buttonMain">Consultar Imagenes</button>
+                <div className="buttonMain">
+                    <a href="/carga">Cargar Imagen</a>
+                </div>
+                <div className="buttonMain">
+                    <a href="/consulta">Consultar Imagenes</a>
+                </div>
         </main>
     )
 }
-export default Main 
+export default Main
