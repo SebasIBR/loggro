@@ -3,9 +3,18 @@ import "../assets/css/Query.css"
 
 function Query(){
     return(
-        <div>
-            <h4>Ventana de consultas</h4>
-        </div>
+        <main className="mainQuery">
+            <section>
+                {/* Seccion de consulta de imagenes */}
+                
+
+            </section>
+            <section>
+                {/* Seccion de listado de imagenes */}
+
+
+            </section>
+        </main>
     )
 }
 export default Query

@@ -9,6 +9,7 @@ function NavBar() {
             <img src={logo} className="logo" alt="logo" />
             </div>
             <div className='navBarContainer'>
+                <a href='/'>Inicio</a>
                 <a href='https://loggro.com/nosotros/'>Nosotros</a>
                 <a href='https://loggro.com/pymes/'>Ofertas</a>
                 <a href='https://loggro.com/contactenos/'>Contacto</a>
