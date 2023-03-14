@@ -1,0 +1,49 @@
+.mainQuery {
+    display: flex;
+    background-color: beige;
+    padding: 8%;
+    align-items: center;
+    justify-content: space-around;
+}
+.queryForm{
+    width: 50%;
+}
+.formQuery{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.labelFormQuery{
+    margin: 15px 0px 0px 0px;
+    align-self: flex-start;
+}
+.inputFormQuery{
+    align-self: flex-start;
+    width: 35%;
+}
+.selectFormQuery{
+    align-self: flex-start;
+
+}
+.buttonQuery{
+    margin-top: 20px;
+    align-self: flex-start;
+    width: 35%;
+    background-color: brown;
+    color: aliceblue;
+    padding: 2%;
+    border: solid 3px brown;
+    border-radius: 50px;
+    transition: 700ms;
+}
+.buttonQuery:hover{
+    background-color: aliceblue;
+    color: brown;
+    transition: 700ms;
+}
+.queryList{
+    display: flex;
+    width: 50%;
+    align-items: flex-start;
+    justify-content: center;
+}
